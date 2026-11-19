@@ -1,0 +1,25 @@
+# Secrets et environnement
+.env
+.env.local
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Données locales
+data/*.db
+data/*.db-journal
+data/*.db-wal
+
+# Streamlit / OS / IDE
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
